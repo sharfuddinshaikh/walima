@@ -321,7 +321,7 @@ let L='en',revealed=false;
 const D=new Date(C.date),ini=C.bride[0]+"·"+C.groom[0];
 
 const q=encodeURIComponent(C.venue.q);
-$('#gm').setAttribute('href', 'https://www.google.com/maps/place/Amrah+Hill+Wedding+Lawn/@19.1675871,73.0191748,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7bfa9ff265b01:0x6669c6acaafec41a!8m2!3d19.1675821!4d73.0217497!16s%2Fg%2F11kq8nbzjk');
+$('#gm').href="https://www.google.com/maps/search/?api=1&query="+q;
 document.title="Dawat-e-Walima · "+C.bride+" & "+C.groom;
 
 function render(){
